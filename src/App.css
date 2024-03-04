@@ -1,0 +1,478 @@
+body {
+  overflow-x: hidden;
+}
+/* Navbar.css */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+  background-color: #58e9e267; /* Set your preferred background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Set your preferred text color */
+}
+
+.logo-image {
+  margin-right: 10px;
+  max-height: 60px; /* Adjust the maximum height of your logo image */
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.logo-text {
+  display: none; /* Hide the text for smaller screens */
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #555; /* Set your preferred link color */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Add a smooth color transition */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Change link color on hover */
+}
+
+.contact-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Set your preferred button color */
+  color: #fff; /* Set your preferred button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Add a smooth background color transition */
+}
+
+.contact-button:hover {
+  background-color: #0056b3; /* Change button color on hover */
+}
+
+/* Footer.css */
+
+.footer-container {
+  background-color: #58e9e267; /* Set your preferred background color */
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Adjust the margin as needed */
+  padding: 40px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right:60px;
+}
+
+.row1 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Set your preferred text color */
+}
+
+.row1 h3 {
+  color: #555; /* Set your preferred text color */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer-link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #555; /* Set your preferred link color */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #007bff;
+}
+
+.row2 p {
+  color: #555; /* Set your preferred text color */
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icons p {
+  margin-right: 10px;
+  color: #555; /* Set your preferred text color */
+}
+
+.icons a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff; /* Set your preferred link color */
+  font-size: 20px;
+}
+
+.icons a:hover {
+  color: #0056b3;
+}
+/* Landing.css */
+
+.container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  width: 70vw;
+  margin: auto;
+  align-items: center;
+  padding: 50px;
+  line-height: 30px;
+}
+
+#landlordslayout {
+  margin-bottom: 1em;
+}
+
+.listingcontainer {
+  display: flex;
+  background-color: rgba(211, 211, 211, 0.361);
+  align-items: center;
+}
+
+.listingcontainer div {
+  width: 50%;
+}
+
+.imgcontainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.textcontainer {
+  text-align: center;
+}
+
+.textcontainer button {
+  margin-top: 1.5em;
+}
+button{
+  padding: 10px 20px;
+  background-color: #007bff; /* Set your preferred button color */
+  color: #fff; /* Set your preferred button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover{
+  background-color: #0056b3; /* Change button color on hover */
+}
+
+/* Login.css */
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.auth-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.auth-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+  background-color: #0056b3;
+}
+/* Signup.css */
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.auth-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.auth-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.auth-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+  background-color: #0056b3;
+}
+
+.signup-link-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-link {
+  color: #007bff; /* Optional: Customize link color */
+}
+/* FetchCounties.css */
+.counties-container {
+  text-align: center;
+  margin: 20px;
+  height: 70vh;
+}
+
+.counties-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.counties-list li {
+  margin: 10px;
+}
+
+.counties-list button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.counties-list button:hover {
+  background-color: #2980b9;
+}
+
+/* App.css */
+
+.add-container-form {
+  max-width: 600px;
+  height: 90vh;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-container-form h1 {
+  text-align: center;
+  color: #007bff;
+  margin-top: 0;
+}
+
+.add-container-form .form-group {
+  margin-bottom: 20px;
+}
+
+.add-container-form label {
+  font-weight: bold;
+}
+
+.add-container-form textarea,
+.add-container-form input[type="text"],
+.add-container-form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-container-form input[type="file"] {
+  padding: 7px 0;
+}
+
+.add-container-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-container-form button:hover {
+  background-color: #0056b3;
+}
+
+.add-container-form .btn-block {
+  display: block;
+}
+
+.add-container-form .text-center {
+  text-align: center;
+}
+
+.add-container-form .mt-5 {
+  margin-top: 40px;
+}
+
+.add-container-form .btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.add-container-form .btn-file input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 100%;
+}
+.screening-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}

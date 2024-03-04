@@ -1,0 +1,51 @@
+/* Container for apartments */
+.apartments-container {
+    min-height: 100vh; /* Minimum height of the container */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Create responsive columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 16px; /* Padding around the container */
+    justify-items: center; /* Center items horizontally */
+  }
+  
+  /* Styling for individual apartment cards */
+  .apartment-card {
+    border: 1px solid #ccc; /* Border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+    overflow: hidden; /* Hide overflowing content */
+    text-align: center;
+    background-color: #fff; /* Background color */
+  }
+  
+  /* Hover effect for apartment cards */
+  .apartment-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  /* Styling for images inside apartment cards */
+  .apartment-card img {
+    width: 100%; /* Make images fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 8px; /* Margin at the bottom */
+  }
+  
+  /* Heading style */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333; /* Text color */
+  }
+  
+  /* Paragraph style */
+  p {
+    text-align: center;
+    margin-top: 10px; /* Reduced margin top */
+    font-size: 16px; /* Reduced font size */
+    color: #666; /* Text color */
+  }
+  
